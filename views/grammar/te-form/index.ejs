@@ -1,0 +1,339 @@
+<%- include('../../partials/header') -%>
+    <title><%= title %> </title>
+</head>
+<body>
+<div class="container">
+        <section id="verbs">
+            <h4>て-form Verbs</h4>
+            <section id="converting words to て">
+                <div>
+                    <p class="text-wrap">
+                        In order to turn う-verbs into their て form variants:
+                        <li> For verbs that had ended with う、つ、る drop them and add って</li>
+                        <li> For the verbs that had ended with む、ぬ、ぶ drop them and add んで</li>
+                        <li> For the verbs that had ended with く drop it and add いて</li>
+                        <li> For the verbs that had ended with ぐ drop it and add いで</li>
+                        <li> For the verbs that had ended with す drop it and add して</li> 
+                        <br>
+                        <table>
+                            <tr>
+                                <td class="jap">う & つ & る</td>
+                                <td>-></td>
+                                <td class="jap">って</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">む & ぬ & ぶ</td>
+                                <td>-></td>
+                                <td class="jap">んで</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">く</td>
+                                <td>-></td>
+                                <td class="jap">いて</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">ぐ</td>
+                                <td>-></td>
+                                <td class="jap">いで</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">す</td>
+                                <td>-></td>
+                                <td class="jap">して</td>
+                            </tr>
+                        </table>
+                    </p>
+                    <p class="text-wrap">
+                        In order to turn る-verbs into their て-form variants:
+                        <li> For the る-verbs just replace the る and put て</li>
+                        <br>
+                        <table>
+                            <tr>
+                                <td class="jap">る</td>
+                                <td>-></td>
+                                <td class="jap">て</td>
+                            </tr>
+                        </table>
+                    </p>
+                    <p class="text-wrap">
+                        In order to turn Irregular verbs into their て-form variants:
+                        <li> For the verbs that had ended with する drop it and put して</li>
+                        <li> For the verbs that had ended with きる drop it and put きて</li>
+                        <br>
+                        <table>
+                            <tr>
+                                <td class="jap">する</td>
+                                <td>-></td>
+                                <td class="jap">して</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">きる</td>
+                                <td>-></td>
+                                <td class="jap">きて</td>
+                            </tr>
+                        </table>
+                    </p>
+                    <p class="text-wrap">
+                        there's an exception to turn one of the う-verbs into their て counterparts:
+                        <li> For the exception of 行く instead of changing it into いて change it to って</li>
+                        <br>
+                        <table>
+                            <tr>
+                                <td class="jap">行く</td>
+                                <td>-></td>
+                                <td class="jap">行って</td>
+                            </tr>
+                        </table>
+                    </p>
+                </div>
+            </section>
+            <section id="table-verb">
+                <div id="transform">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th><strong>う-verbs</strong></th>
+                            </tr>
+                            <tr>
+                                <th>kanji</th>
+                                <th>verb</th>
+                                <th>て-form</th>
+                            </tr>
+                        </thead>
+                    </table>
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <td class="jap">死ぬ</td>
+                                <td class="jap">しぬ</td>
+                                <td class="jap">しんで</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">急ぐ</td>
+                                <td class="jap">いそぐ</td>
+                                <td class="jap">いそいで</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">書く</td>
+                                <td class="jap">かく</td>
+                                <td class="jap">かいて</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">話す</td>
+                                <td class="jap">はなす</td>
+                                <td class="jap">はなして</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">笑う</td>
+                                <td class="jap">わらう</td>
+                                <td class="jap">わらって</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th><strong>る-verbs</strong></th>
+                            </tr>
+                            <tr>
+                                <th>kanji</th>
+                                <th>verb</th>
+                                <th>て-form</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="jap">食べる</td>
+                                <td class="jap">たべる</td>
+                                <td class="jap">たべて</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th><strong>Irregular Verbs</strong></th>
+                            </tr>
+                            <tr>
+                                <th>verb</th>
+                                <th>て-form</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="jap">する</td>
+                                <td class="jap">して</td>
+                            </tr>
+                            <tr>
+                                <td class="jap">きる</td>
+                                <td class="jap">きて</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th><strong>Special Exception</strong></th>
+                            </tr>
+                            <tr>
+                                <th>kanji</th>
+                                <th>verb</th>
+                                <th>て-form</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="jap">行く</td>
+                                <td class="jap">いく</td>
+                                <td class="jap">行って</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+        <section id="adjectives">
+            <h4>て-form Adjectives</h4>
+            <section id="converting adjectives into て-form">
+                <p class="text-wrap">
+                    To turn い-adjectives into their て-form variant:
+                    <li> Drop the い and add the くて</li>  
+                    <li>- If its a いい then change the いい into よ and proceed to add くて at the end</li>
+                    <br>
+                    <table>
+                        <tr>
+                            <td class="jap">い</td>
+                            <td>-></td>
+                            <td class="jap">くて</td>
+                        </tr>
+                        <tr>
+                            <td class="jap">いい</td>
+                            <td>-></td>
+                            <td class="jap">よ-くて</td>
+                        </tr>
+                    </table>
+                </p>
+                <p class="text-wrap">
+                    to turn な-adjectives intto their て-form vairant:
+                    <li>- Drop the な and add で</li>
+                    <br>
+                    <table>
+                        <tr>
+                            <td class="jap">な</td>
+                            <td>-></td>
+                            <td class="jap">で</td>
+                        </tr>
+                    </table>
+                </p>
+            </section>
+            <section id="table-adjective">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th><strong>な-adjectives</strong></th>
+                        </tr>
+                        <tr>
+                            <th>kanji</th>
+                            <th>adjective</th>
+                            <th>て-form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="jap">綺麗(な)</td>
+                            <td class="jap">きれいな</td>
+                            <td class="jap">きれいで</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th><strong>い-adjectives</strong></th>
+                        </tr>
+                        <tr>
+                            <th>kanji</th>
+                            <th>adjective</th>
+                            <th>て-form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="jap">寒い</td>
+                            <td class="jap">さむい</td>
+                            <td class="jap">さむくて</td>
+                        </tr>
+                        <tr>
+                            <td class="jap"></td>
+                            <td class="jap">いい</td>
+                            <td class="jap">よくて</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+        <section id="sentence structures">
+            <div class="jap">
+                <h4>て-form sentence structures!</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>sentence structure</th>
+                            <th>meaning</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="jap">...(verb)てください</td>
+                            <td><li>To make a polite request to someone</li></td>
+                            <td class="jap"><li>日本語の本をよんでくださあい</li></td>
+                        </tr>
+                        <tr>
+                            <td class="jap">...(verb)てもいですか</td>
+                            <td><li>To seek permission to perform an action</li></td>
+                            <td class="jap"><li>教科書を見てもいいですか</li></td>
+                        </tr>
+                        <tr>
+                            <td class="jap">...(verb)てはいけません</td>
+                            <td><li>Strong prohibition statement, as in rules and regulation</li></td>
+                            <td class="jap"><li>ここで写真を撮ってはいけません</li></td>
+                        </tr>
+                        <tr>
+                            <td class="jap">...(verb)ている</td>
+                            <td>
+                                <li>Action in progress</li>
+                                <li>Result of change (stative verbs)</li>
+                            </td>
+                            <td class="jap">
+                                <li>スーさんは今勉強しています</li>
+                                <li>みちこさんはまどの座っています</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="jap">...(verb)て...long form(Verb)</td>
+                            <td>
+                                <li>Conjuction for verbs</li>
+                                <li>Did this then did that</li>
+                            </td>
+                            <td class="jap"><li>お風呂に入ってばんごはん食べました</li></td>
+                        </tr>
+                        <tr>
+                            <td class="jap">...くて/で...adjective</td>
+                            <td>
+                                <li>Conjuction for adjectives</li>
+                                <li>beautiful and clean</li>
+                            </td>
+                            <td class="jap">
+                                <li>美しくてきれです</li>
+                                <li>きれいで美しいです</li>
+                                <li>頭がよくてかっこいいですよね</li>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</body>
+<%- include('../../partials/footer') %> 
